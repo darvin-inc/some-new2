@@ -1,0 +1,27 @@
+h1,h2{
+text-align: center;
+}
+body{
+    background-color: black;
+}
+h1{
+font-size:50px;
+}
+section{
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap:5px;
+}
+section div{
+width: calc( 890px / 3);
+background-color: rgb(179, 33, 33);
+border-radius: 19px;
+}
+img{
+width: 100%;
+border-radius: 19px 19px 0px 0px;
+}
